@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DXT5551P5-13
+D Bipolar Transistors - BJT BIPOLAR TRANS,NPN 160V, 600mA
+K
+F https://www.diodes.com/assets/Datasheets/DXT5551P5.pdf
+$ENDCMP
+#
+#End Doc Library

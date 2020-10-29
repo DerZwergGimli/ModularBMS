@@ -1,0 +1,18 @@
+.TEA_1-0505 :1 ;Isolated DC/DC Converters 1W 4.5-5.5Vin 5Vout 200mA unreg SIP-4
+TEA10505
+*STM PS
+*NGS
+*PLB 1="-VIN (GND)" 2="+VIN (VCC)" 3="-VOUT" 4="+VOUT"
+*MXP 4
+*DFN TEA_1-0505
+~!Manufacturer_Name (Traco Power)
+~!Manufacturer_Part_Number (TEA 1-0505)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Part Number (495-TEA1-0505)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TRACO-Power/TEA-1-0505?qs=GedFDFLaBXEYm9Nac0%2F18A%3D%3D)
+~!Link Datasheet (https://www.tracopower.com/sites/default/files/products/datasheets/tea1_datasheet.pdf)
+~!Height (10.15mm)
+~!3D_Model (TEA_1-0505)
+TEA_1-0505
+1.1!U 2.1!U 3.1!U 4.1!U 

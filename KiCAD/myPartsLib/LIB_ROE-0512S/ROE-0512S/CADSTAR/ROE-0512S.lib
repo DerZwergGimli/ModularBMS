@@ -1,0 +1,18 @@
+.ROE-0512S :1 ;Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 12V dc
+ROE1205S
+*STM PS
+*NGS
+*PLB 1="-VIN" 2="+VIN" 3="-VOUT" 4="+VOUT"
+*MXP 4
+*DFN ROE-0512S
+~!Manufacturer_Name (RECOM Power)
+~!Manufacturer_Part_Number (ROE-0512S)
+~!Arrow Part Number (ROE-0512S)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/roe-0512s/recom-power)
+~!Mouser Part Number (919-ROE-0512S)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-0512S?qs=wlO1EFRhkBBs39O4z6CwKg%3D%3D)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/ROE-0512S.pdf)
+~!Height (10.5mm)
+~!3D_Model (ROE-0512S)
+ROE-0512S
+1.1!U 2.1!U 3.1!U 4.1!U 

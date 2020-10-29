@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "HM2100NL"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-19-16:36:51)
+    (mountForm default
+        (footprintRef "SOP254P1493X345-10N")
+        (spec "System")
+    )
+)

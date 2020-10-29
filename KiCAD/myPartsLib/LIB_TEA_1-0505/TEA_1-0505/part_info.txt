@@ -1,0 +1,9 @@
+Manufacturer=Traco Power
+PartNumber=TEA 1-0505
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2020-05-30 15:19:39
+Downloaded=2020-10-26 22:24:03
+3D=Y

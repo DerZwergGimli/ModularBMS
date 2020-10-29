@@ -1,0 +1,158 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "HM2100NL"
+   (description "Audio Transformers / Signal Transformers MDL DUAL XFMR-CMC AEC-Q200")
+   (family "XFR")
+   (package "SOP254P1493X345-10N")
+   (attribute "Datasheet Link" "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/HM2100NL/doc_part/HM2100NL.pdf")
+   (attribute "Geometry.Height" "3.45mm")
+   (attribute "Manufacturer_Name" "Pulse")
+   (attribute "Manufacturer_Part_Number" "HM2100NL")
+   (attribute "Arrow Part Number" "HM2100NL")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/hm2100nl/pulse-electronics-corporation")
+   (attribute "Mouser Part Number" "673-HM2100NL")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HM2100NL?qs=1mbolxNpo8dwDSBbBgCdLQ%3D%3D")
+   (gate
+    (symbol "HM2100NL")
+    (pin "PRI_1_1" 1 PS)
+    (pin "PRI_1_2" 2 PS)
+    (pin "NC_1" 3 PS)
+    (pin "PRI_2_1" 4 PS)
+    (pin "PRI_2_2" 5 PS)
+    (pin "SEC1" 10 PS)
+    (pin "SEC_1" 9 PS)
+    (pin "NC_2" 8 PS)
+    (pin "SEC2" 7 PS)
+    (pin "SEC_2" 6 PS)
+   )
+  )
+  (symbol "HM2100NL"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP254P1493X345-10N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -8.325 7.725)
+      (pt 8.325 7.725)
+      (pt 8.325 -7.725)
+      (pt -8.325 -7.725)
+      (pt -8.325 7.725))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.825 7.35)
+      (pt 5.825 7.35)
+      (pt 5.825 -7.35)
+      (pt -5.825 -7.35)
+      (pt -5.825 7.35))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -5.825 4.81)
+      (pt -3.285 7.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -5.525 7.35)
+      (pt 5.525 7.35)
+      (pt 5.525 -7.35)
+      (pt -5.525 -7.35)
+      (pt -5.525 7.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.075 5.805)
+      (pt -5.875 5.805))))
+   (leg 1 (pt -6.975 5.08) (padstack 0))
+   (leg 2 (pt -6.975 2.54) (padstack 0))
+   (leg 3 (pt -6.975 0) (padstack 0))
+   (leg 4 (pt -6.975 -2.54) (padstack 0))
+   (leg 5 (pt -6.975 -5.08) (padstack 0))
+   (leg 6 (pt 6.975 -5.08) (padstack 0))
+   (leg 7 (pt 6.975 -2.54) (padstack 0))
+   (leg 8 (pt 6.975 0) (padstack 0))
+   (leg 9 (pt 6.975 2.54) (padstack 0))
+   (leg 10 (pt 6.975 5.08) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.75 2.2 0 0 0))
+   )
+   (model "HM2100NL.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

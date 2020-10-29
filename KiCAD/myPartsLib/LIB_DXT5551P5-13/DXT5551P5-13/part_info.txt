@@ -1,0 +1,9 @@
+Manufacturer=Diodes Inc.
+PartNumber=DXT5551P5-13
+PartCategory=Transistor BJT NPN
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2018-08-22 14:11:33
+Downloaded=2020-10-24 17:32:43
+3D=N

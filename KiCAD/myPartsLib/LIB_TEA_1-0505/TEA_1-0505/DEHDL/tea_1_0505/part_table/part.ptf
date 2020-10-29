@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TEA_1_0505'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Traco Power", "TEA 1-0505" (!) = "", "TEA10505", "Other", "", "", "495-TEA1-0505", "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TEA-1-0505?qs=GedFDFLaBXEYm9Nac0%2F18A%3D%3D", "Isolated DC/DC Converters 1W 4.5-5.5Vin 5Vout 200mA unreg SIP-4", "https://www.tracopower.com/sites/default/files/products/datasheets/tea1_datasheet.pdf", "10.15 mm"
+END_PART
+
+END.

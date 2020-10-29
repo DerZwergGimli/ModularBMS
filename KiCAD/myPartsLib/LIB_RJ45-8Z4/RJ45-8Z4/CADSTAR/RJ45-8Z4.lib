@@ -1,0 +1,19 @@
+.RJ45-8Z4 :1 ;RJ45-8Z4 M0=F9770
+RJ458Z4
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=MH1 10=MH2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="MH1" 10="MH2"
+*MXP 12
+*DFN RJ45-8Z4
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (RJ45-8Z4)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Part Number (592-RJ45-8Z4)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=592-RJ45-8Z4)
+~!Link Datasheet (https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20Corcom%20PDFs/Z_Series.pdf)
+~!Height (13.08mm)
+~!3D_Model (RJ45-8Z4)
+RJ45-8Z4
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

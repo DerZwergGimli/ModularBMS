@@ -1,0 +1,147 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DXT5551P5-13"
+   (description "Bipolar Transistors - BJT BIPOLAR TRANS,NPN 160V, 600mA")
+   (family "TRX")
+   (package "DXT5551P513")
+   (attribute "Datasheet Link" "https://www.diodes.com/assets/Datasheets/DXT5551P5.pdf")
+   (attribute "Manufacturer_Name" "Diodes Inc.")
+   (attribute "Manufacturer_Part_Number" "DXT5551P5-13")
+   (attribute "Arrow Part Number" "DXT5551P5-13")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/dxt5551p5-13/diodes-incorporated")
+   (attribute "Mouser Part Number" "522-DXT5551P5-13")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DXT5551P5-13?qs=pmB%252BthhaMeURGx362MbdPw%3D%3D")
+   (gate
+    (symbol "DXT5551P5-13")
+    (pin "B" 1 PS)
+    (pin "E" 2 PS)
+    (pin "C" 3 PS)
+   )
+  )
+  (symbol "DXT5551P5-13"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 150) (pt 300 -150))
+   )
+   (graphic
+    (stroke 20)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 50) (pt 400 150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -50) (pt 400 -150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -150) (pt 400 -200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 150) (pt 400 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 330 -100) (pt 350 -80) (pt 370 -120) (pt 330 -100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 -300) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 300) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DXT5551P513"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.025 2.725)
+      (pt 2.025 2.725)
+      (pt 2.025 -2.725)
+      (pt -2.025 -2.725)
+      (pt -2.025 2.725))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.525 4.032)
+      (pt 2.525 4.032)
+      (pt 2.525 -4.76)
+      (pt -2.525 -4.76)
+      (pt -2.525 4.032))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.025 2.725)
+      (pt -2.025 -2.725))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2.025 2.725)
+      (pt 2.025 -2.725))))
+   (layer TSLK
+    (graphic
+     (stroke 0.3)
+     (path
+      (closed false)
+      (pt -1.1 -4.1)
+      (arc (pt -1.100 -4.100) (pt -1.100 -4.250) (pt -0.800 -3.950) (start -180.0) (sweep 180.0))
+      (pt -0.8 -4.1)
+      (arc (pt -0.800 -4.100) (pt -1.100 -4.250) (pt -0.800 -3.950) (start -180.0) (sweep .0))
+      (pt -1.1 -4.1))))
+   (leg 1 (pt -0.920 -2.890) (padstack 0))
+   (leg 2 (pt 0.920 -2.890) (padstack 2))
+   (leg 3 (pt 0.000 1.092) (padstack 3))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.390 1.400 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 1.390 1.400 0 0 90.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 3.360 4.860 0 0 90.000))
+   )
+  )
+ )
+)

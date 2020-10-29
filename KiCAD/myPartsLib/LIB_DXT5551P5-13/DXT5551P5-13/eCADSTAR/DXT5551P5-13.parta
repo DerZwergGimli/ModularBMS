@@ -1,0 +1,71 @@
+(Japanese_coding: sjis)
+(function "ECS_883575"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-08-22-14:11:33)
+    (utime 2018-08-23-06:31:09)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "DXT5551P5-13")
+)
+
+
+(pinAssign "ECS_883575"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-08-22-14:11:33)
+    (utime 2018-08-23-06:31:09)
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "E") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_883575")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "DXT5551P5-13")
+)
+
+
+(part "DXT5551P5-13"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-08-22-14:11:33)
+    (utime 2018-08-23-06:31:09)
+    (packageRef "DXT5551P5-13")
+    (pinAssignRef "ECS_883575")
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "E") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Bipolar Transistors - BJT BIPOLAR TRANS,NPN 160V, 600mA")
+    (property "Manufacturer_Name" "Diodes Inc.")
+    (property "Manufacturer_Part_Number" "DXT5551P5-13")
+    (property "Arrow_Part_Number" "DXT5551P5-13")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/dxt5551p5-13/diodes-incorporated")
+    (property "Mouser_Part_Number" "522-DXT5551P5-13")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DXT5551P5-13?qs=pmB%252BthhaMeURGx362MbdPw%3D%3D")
+    (property "Datasheet_Link" "https://www.diodes.com/assets/Datasheets/DXT5551P5.pdf")
+)
+
+

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TEA_1-0505
+D Isolated DC/DC Converters 1W 4.5-5.5Vin 5Vout 200mA unreg SIP-4
+K
+F https://www.tracopower.com/sites/default/files/products/datasheets/tea1_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

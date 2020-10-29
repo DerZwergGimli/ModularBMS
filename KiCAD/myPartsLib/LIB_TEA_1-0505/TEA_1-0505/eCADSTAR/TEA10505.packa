@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TEA_1-0505"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-05-30-15:19:39)
+    (mountForm default
+        (footprintRef "TEA10505")
+        (spec "System")
+    )
+)

@@ -1,0 +1,18 @@
+.HM2112ZNL :1 ;Audio Transformers / Signal Transformers MDL DUAL XFMR-CMC SMT AEC-Q200
+SOP200P1543X320-12N
+*STM T
+*NGS
+*PLB 1="PRI_1" 2="PRI_2" 3="PRI_3" 4="PRI_4" 5="PRI_5" 6="PRI_6" 7="SEC_1" 8="SEC_2" 9="SEC_3" 10="SEC_4" 11="SEC_5" 12="SEC_6"
+*MXP 12
+*DFN HM2112ZNL
+~!Manufacturer_Name (Pulse)
+~!Manufacturer_Part_Number (HM2112ZNL)
+~!Arrow Part Number (HM2112ZNL)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/hm2112znl/pulse-electronics-corporation)
+~!Mouser Part Number (673-HM2112ZNL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HM2112ZNL?qs=chTDxNqvsylLr1OAY8rM9g%3D%3D)
+~!Link Datasheet (https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/HM2112ZNL/doc_part/HM2112ZNL.pdf)
+~!Height (3.2mm)
+~!3D_Model (HM2112ZNL)
+HM2112ZNL
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 7.1!U 

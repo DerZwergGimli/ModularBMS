@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RJ458Z4"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RJ458Z4")
+        (spec "default")
+    )
+)

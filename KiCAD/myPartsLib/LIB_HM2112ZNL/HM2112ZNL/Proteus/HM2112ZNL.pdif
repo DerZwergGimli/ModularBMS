@@ -1,0 +1,170 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "HM2112ZNL"
+   (description "Audio Transformers / Signal Transformers MDL DUAL XFMR-CMC SMT AEC-Q200")
+   (family "XFR")
+   (package "SOP200P1543X320-12N")
+   (attribute "Datasheet Link" "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/HM2112ZNL/doc_part/HM2112ZNL.pdf")
+   (attribute "Geometry.Height" "3.2mm")
+   (attribute "Manufacturer_Name" "Pulse")
+   (attribute "Manufacturer_Part_Number" "HM2112ZNL")
+   (attribute "Arrow Part Number" "HM2112ZNL")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/hm2112znl/pulse-electronics-corporation")
+   (attribute "Mouser Part Number" "673-HM2112ZNL")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HM2112ZNL?qs=chTDxNqvsylLr1OAY8rM9g%3D%3D")
+   (gate
+    (symbol "HM2112ZNL")
+    (pin "PRI_1" 1 PS)
+    (pin "PRI_2" 2 PS)
+    (pin "PRI_3" 3 PS)
+    (pin "PRI_4" 4 PS)
+    (pin "PRI_5" 5 PS)
+    (pin "PRI_6" 6 PS)
+    (pin "SEC_6" 12 PS)
+    (pin "SEC_5" 11 PS)
+    (pin "SEC_4" 10 PS)
+    (pin "SEC_3" 9 PS)
+    (pin "SEC_2" 8 PS)
+    (pin "SEC_1" 7 PS)
+   )
+  )
+  (symbol "HM2112ZNL"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP200P1543X320-12N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -8.575 7.725)
+      (pt 8.575 7.725)
+      (pt 8.575 -7.725)
+      (pt -8.575 -7.725)
+      (pt -8.575 7.725))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.075 7.35)
+      (pt 6.075 7.35)
+      (pt 6.075 -7.35)
+      (pt -6.075 -7.35)
+      (pt -6.075 7.35))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -6.075 5.35)
+      (pt -4.075 7.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -5.775 7.35)
+      (pt 5.775 7.35)
+      (pt 5.775 -7.35)
+      (pt -5.775 -7.35)
+      (pt -5.775 7.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.325 5.75)
+      (pt -6.125 5.75))))
+   (leg 1 (pt -7.225 5) (padstack 0))
+   (leg 2 (pt -7.225 3) (padstack 0))
+   (leg 3 (pt -7.225 1) (padstack 0))
+   (leg 4 (pt -7.225 -1) (padstack 0))
+   (leg 5 (pt -7.225 -3) (padstack 0))
+   (leg 6 (pt -7.225 -5) (padstack 0))
+   (leg 7 (pt 7.225 -5) (padstack 0))
+   (leg 8 (pt 7.225 -3) (padstack 0))
+   (leg 9 (pt 7.225 -1) (padstack 0))
+   (leg 10 (pt 7.225 1) (padstack 0))
+   (leg 11 (pt 7.225 3) (padstack 0))
+   (leg 12 (pt 7.225 5) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.8 2.2 0 0 0))
+   )
+   (model "HM2112ZNL.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'HM2112ZNL'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Pulse", "HM2112ZNL" (!) = "", "SOP200P1543X320-12N", "Small Outline Packages", "HM2112ZNL", "https://www.arrow.com/en/products/hm2112znl/pulse-electronics-corporation", "673-HM2112ZNL", "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HM2112ZNL?qs=chTDxNqvsylLr1OAY8rM9g%3D%3D", "Audio Transformers / Signal Transformers MDL DUAL XFMR-CMC SMT AEC-Q200", "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/HM2112ZNL/doc_part/HM2112ZNL.pdf", "3.2 mm"
+END_PART
+
+END.

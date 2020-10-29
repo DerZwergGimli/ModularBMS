@@ -1,0 +1,4 @@
+/ebooks_pdfs/*
+*.ods
+*.odt
+.~lock.*

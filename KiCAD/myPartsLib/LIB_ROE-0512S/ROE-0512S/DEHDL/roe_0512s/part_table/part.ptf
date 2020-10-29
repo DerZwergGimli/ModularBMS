@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ROE_0512S'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RECOM Power", "ROE-0512S" (!) = "", "ROE1205S", "Other", "ROE-0512S", "https://www.arrow.com/en/products/roe-0512s/recom-power", "919-ROE-0512S", "https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-0512S?qs=wlO1EFRhkBBs39O4z6CwKg%3D%3D", "Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 12V dc", "https://componentsearchengine.com/Datasheets/2/ROE-0512S.pdf", "10.5 mm"
+END_PART
+
+END.

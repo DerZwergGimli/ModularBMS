@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/883575/346928/2.47/3/4/Transistor BJT NPN/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r140_139" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="54.724409448818" height="55.11811023622" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="54.724409448818" height="55.11811023622" />
+  </padstyle>
+  <padstyle name="r486_336" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="132.28346456693" height="191.33858267716" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="132.28346456693" height="191.33858267716" />
+  </padstyle>
+  <footprint name="DXT5551P513" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r140_139" originx="-36.220472440944" originy="-113.77952755905" rotation="0" />
+    <pcbpin number="2" name="2" style="r140_139" originx="36.220472440944" originy="-113.77952755905" rotation="0" />
+    <pcbpin number="3" name="3" style="r486_336" originx="0" originy="42.992125984251" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-79.724409448818" originy="107.28346456693" endx="79.724409448818" endy="107.28346456693" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="79.724409448818" originy="107.28346456693" endx="79.724409448818" endy="-107.28346456693" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="79.724409448818" originy="-107.28346456693" endx="-79.724409448818" endy="-107.28346456693" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-79.724409448818" originy="-107.28346456693" endx="-79.724409448818" endy="107.28346456693" width="7.8740157480314" />
+    <line layer="TOP_PLACE_BOUND" originx="-99.409448818896" originy="158.74015748031" endx="99.409448818896" endy="158.74015748031" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="99.409448818896" originy="158.74015748031" endx="99.409448818896" endy="-187.40157480315" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="99.409448818896" originy="-187.40157480315" endx="-99.409448818896" endy="-187.40157480315" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-99.409448818896" originy="-187.40157480315" endx="-99.409448818896" endy="158.74015748031" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-79.724409448818" originy="107.28346456693" endx="-79.724409448818" endy="-107.28346456693" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="79.724409448818" originy="107.28346456693" endx="79.724409448818" endy="-107.28346456693" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-43.307086614173" originy="-161.41732283464" endx="-43.307086614173" endy="-161.41732283464" width="11.811023622047" />
+    <arc layer="TOP_SILKSCREEN" originx="-37.401574803149" originy="-161.41732283464" startangle="180.0" sweepangle="-180.0" radius="5.9055118110235" width="11.811023622047" />
+    <line layer="TOP_SILKSCREEN" originx="-31.496062992126" originy="-161.41732283464" endx="-31.496062992126" endy="-161.41732283464" width="11.811023622047" />
+    <arc layer="TOP_SILKSCREEN" originx="-37.401574803149" originy="-161.41732283464" startangle=".0" sweepangle="-180.0" radius="5.9055118110235" width="11.811023622047" />
+  </footprint>
+  <symbol name="DXT5551P5-13" originx="0" originy="0">
+    <line originx="300" originy="100" endx="300" endy="-100" width="20" />
+    <line originx="300" originy="50" endx="400" endy="150" width="10" />
+    <line originx="300" originy="-50" endx="400" endy="-150" width="10" />
+    <line originx="400" originy="-150" endx="400" endy="-200" width="10" />
+    <line originx="400" originy="150" endx="400" endy="200" width="10" />
+    <line originx="100" originy="0" endx="300" endy="0" width="10" />
+    <arc originx="350" originy="0" startangle="180" sweepangle="180" radius="158.114" width="10" />
+    <arc originx="350" originy="0" startangle="180" sweepangle="-180" radius="158.114" width="10" />
+    <sympin number="1" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="0" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="B" />
+      <text name="pindes" originx="0" originy="0" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="400" originy="-200" rotation="270" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="0" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="E" />
+      <text name="pindes" originx="0" originy="0" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="400" originy="200" rotation="90" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="0" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="C" />
+      <text name="pindes" originx="0" originy="0" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="330" y="-100" />
+      <point x="350" y="-80" />
+      <point x="370" y="-120" />
+    </polygon>
+  </symbol>
+  <component name="DXT5551P5-13" designatorprefix="Q" height="0" footprint="DXT5551P513">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="B" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="E" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="C" />
+    <attached_symbol gate="1" name="DXT5551P5-13" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.diodes.com/assets/Datasheets/DXT5551P5.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Bipolar Transistors - BJT BIPOLAR TRANS,NPN 160V, 600mA" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Diodes Inc." />
+    <text name="Manufacturer_Part_Number" originx="550" originy="-50" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="DXT5551P5-13" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="DXT5551P5-13" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.arrow.com/en/products/dxt5551p5-13/diodes-incorporated" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="522-DXT5551P5-13" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DXT5551P5-13?qs=pmB%252BthhaMeURGx362MbdPw%3D%3D" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ROE1205S"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ROE1205S")
+        (spec "default")
+    )
+)

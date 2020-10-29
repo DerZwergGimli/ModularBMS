@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name myLib)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myLib/myLib.lib)(options "")(descr ""))
+  (lib (name HM2100NL)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myPartsLib/LIB_HM2100NL/HM2100NL/KiCad/HM2100NL.lib)(options "")(descr ""))
+  (lib (name HM2112ZNL)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myPartsLib/LIB_HM2112ZNL/HM2112ZNL/KiCad/HM2112ZNL.lib)(options "")(descr ""))
+  (lib (name DXT5551P5-13)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myPartsLib/LIB_DXT5551P5-13/DXT5551P5-13/KiCad/DXT5551P5-13.lib)(options "")(descr ""))
+)

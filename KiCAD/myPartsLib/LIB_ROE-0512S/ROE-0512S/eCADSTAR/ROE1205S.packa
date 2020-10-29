@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ROE-0512S"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-07-03-10:49:24)
+    (mountForm default
+        (footprintRef "ROE1205S")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Pulse
+PartNumber=HM2100NL
+PartCategory=Transformer
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=2.1
+Released=2019-02-19 08:00:12
+Downloaded=2020-10-22 16:47:32
+3D=Y

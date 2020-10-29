@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DXT5551P5_13'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Diodes Inc.", "DXT5551P5-13" (!) = "", "DXT5551P513", "Other", "DXT5551P5-13", "https://www.arrow.com/en/products/dxt5551p5-13/diodes-incorporated", "522-DXT5551P5-13", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DXT5551P5-13?qs=pmB%252BthhaMeURGx362MbdPw%3D%3D", "Bipolar Transistors - BJT BIPOLAR TRANS,NPN 160V, 600mA", "https://www.diodes.com/assets/Datasheets/DXT5551P5.pdf"
+END_PART
+
+END.

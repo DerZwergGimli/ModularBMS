@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=RJ45-8Z4
+PartCategory=Connector
+PackageCategory=Other
+PinCount=10
+Version=1.3
+Released=2020-01-03 20:49:57
+Downloaded=2020-10-27 20:47:17
+3D=Y

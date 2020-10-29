@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RJ45_8Z4'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "RJ45-8Z4" (!) = "", "RJ458Z4", "Other", "", "", "592-RJ45-8Z4", "https://www.mouser.com/Search/Refine.aspx?Keyword=592-RJ45-8Z4", "RJ45-8Z4 M0=F9770", "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20Corcom%20PDFs/Z_Series.pdf", "13.08 mm"
+END_PART
+
+END.

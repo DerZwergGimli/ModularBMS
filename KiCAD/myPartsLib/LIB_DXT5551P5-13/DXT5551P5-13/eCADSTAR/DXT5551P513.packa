@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DXT5551P5-13"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-08-22-14:11:33)
+    (mountForm default
+        (footprintRef "DXT5551P513")
+        (spec "System")
+    )
+)

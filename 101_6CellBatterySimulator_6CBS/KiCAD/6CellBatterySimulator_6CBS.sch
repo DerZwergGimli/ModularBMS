@@ -1,0 +1,371 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 7
+Title "6 Cell Battery Simulator (6CBS)"
+Date "2020-10-28"
+Rev "V1.0"
+Comp "HTWG"
+Comment1 "EIB"
+Comment2 "2020"
+Comment3 "Yannick Pauly"
+Comment4 ""
+$EndDescr
+$Sheet
+S 5000 1750 1000 300 
+U 5F982E52
+F0 "Channel6" 50
+F1 "BatteryChannel.sch" 50
+F2 "OUT+" O R 6000 1850 50 
+F3 "OUT-" I R 6000 1950 50 
+$EndSheet
+$Comp
+L Connector:Screw_Terminal_01x02 J101
+U 1 1 5F98E1E5
+P 1050 1050
+F 0 "J101" H 968 1267 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 968 1176 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 2800 1000 50  0000 C CNN
+F 3 "~" H 1050 1050 50  0001 C CNN
+	1    1050 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F101
+U 1 1 5F98F24E
+P 1600 1050
+F 0 "F101" V 1403 1050 50  0000 C CNN
+F 1 "4A" V 1494 1050 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1530 1050 50  0001 C CNN
+F 3 "~" H 1600 1050 50  0001 C CNN
+	1    1600 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D101
+U 1 1 5F990492
+P 2050 1050
+F 0 "D101" H 2050 833 50  0000 C CNN
+F 1 "40V 2A" H 2050 924 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2050 1050 50  0001 C CNN
+F 3 "~" H 2050 1050 50  0001 C CNN
+	1    2050 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C101
+U 1 1 5F990B73
+P 2400 1250
+F 0 "C101" H 2518 1296 50  0000 L CNN
+F 1 "47u" H 2518 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2438 1100 50  0001 C CNN
+F 3 "~" H 2400 1250 50  0001 C CNN
+	1    2400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D102
+U 1 1 5F991024
+P 2850 1600
+F 0 "D102" V 2889 1482 50  0000 R CNN
+F 1 "LED" V 2798 1482 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 2850 1600 50  0001 C CNN
+F 3 "~" H 2850 1600 50  0001 C CNN
+	1    2850 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R101
+U 1 1 5F9929B5
+P 2850 1250
+F 0 "R101" H 2920 1296 50  0000 L CNN
+F 1 "330" H 2920 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2780 1250 50  0001 C CNN
+F 3 "~" H 2850 1250 50  0001 C CNN
+	1    2850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F992F37
+P 2400 1850
+F 0 "#PWR0102" H 2400 1600 50  0001 C CNN
+F 1 "GND" H 2405 1677 50  0000 C CNN
+F 2 "" H 2400 1850 50  0001 C CNN
+F 3 "" H 2400 1850 50  0001 C CNN
+	1    2400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F993060
+P 2850 1850
+F 0 "#PWR0104" H 2850 1600 50  0001 C CNN
+F 1 "GND" H 2855 1677 50  0000 C CNN
+F 2 "" H 2850 1850 50  0001 C CNN
+F 3 "" H 2850 1850 50  0001 C CNN
+	1    2850 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1850 2850 1800
+Wire Wire Line
+	2400 1850 2400 1400
+Wire Wire Line
+	2400 1050 2200 1050
+Wire Wire Line
+	1450 1050 1250 1050
+Wire Wire Line
+	1900 1050 1750 1050
+Wire Wire Line
+	2400 1100 2400 1050
+Wire Wire Line
+	2400 1050 2850 1050
+Wire Wire Line
+	2850 1050 2850 1100
+Connection ~ 2400 1050
+$Comp
+L power:GND #PWR0101
+U 1 1 5F9939E5
+P 1300 1200
+F 0 "#PWR0101" H 1300 950 50  0001 C CNN
+F 1 "GND" H 1305 1027 50  0000 C CNN
+F 2 "" H 1300 1200 50  0001 C CNN
+F 3 "" H 1300 1200 50  0001 C CNN
+	1    1300 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1200 1300 1150
+Wire Wire Line
+	1300 1150 1250 1150
+Text Notes 600  800  0    50   ~ 0
+Input Voltage\n
+$Comp
+L power:+5V #PWR?
+U 1 1 5F995E36
+P 2850 1000
+AR Path="/5F982E52/5F995E36" Ref="#PWR?"  Part="1" 
+AR Path="/5F995E36" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 2850 850 50  0001 C CNN
+F 1 "+5V" H 2865 1173 50  0000 C CNN
+F 2 "" H 2850 1000 50  0001 C CNN
+F 3 "" H 2850 1000 50  0001 C CNN
+	1    2850 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1000 2850 1050
+Connection ~ 2850 1050
+Wire Wire Line
+	2850 1450 2850 1400
+$Sheet
+S 5000 4850 1000 300 
+U 5F99BFE5
+F0 "Channel1" 50
+F1 "BatteryChannel.sch" 50
+F2 "OUT+" O R 6000 4950 50 
+F3 "OUT-" I R 6000 5050 50 
+$EndSheet
+$Sheet
+S 5000 4250 1000 300 
+U 5F99C110
+F0 "Channel2" 50
+F1 "BatteryChannel.sch" 50
+F2 "OUT+" O R 6000 4350 50 
+F3 "OUT-" I R 6000 4450 50 
+$EndSheet
+$Sheet
+S 5000 3650 1000 300 
+U 5F99C2CD
+F0 "Channel3" 50
+F1 "BatteryChannel.sch" 50
+F2 "OUT+" O R 6000 3750 50 
+F3 "OUT-" I R 6000 3850 50 
+$EndSheet
+$Sheet
+S 5000 3050 1000 300 
+U 5F99C42A
+F0 "Channel4" 50
+F1 "BatteryChannel.sch" 50
+F2 "OUT+" O R 6000 3150 50 
+F3 "OUT-" I R 6000 3250 50 
+$EndSheet
+$Sheet
+S 5000 2350 1000 300 
+U 5F99C578
+F0 "Channel5" 50
+F1 "BatteryChannel.sch" 50
+F2 "OUT+" O R 6000 2450 50 
+F3 "OUT-" I R 6000 2550 50 
+$EndSheet
+Wire Wire Line
+	6000 4950 6100 4950
+Wire Wire Line
+	6100 4450 6000 4450
+Wire Wire Line
+	6000 4350 6100 4350
+Wire Wire Line
+	6100 3850 6000 3850
+Wire Wire Line
+	6000 3750 6100 3750
+Wire Wire Line
+	6100 3250 6000 3250
+Wire Wire Line
+	6000 3150 6100 3150
+Wire Wire Line
+	6100 2550 6000 2550
+Wire Wire Line
+	6000 2450 6100 2450
+Wire Wire Line
+	6000 1950 6100 1950
+$Comp
+L Connector:Screw_Terminal_01x07 J102
+U 1 1 5F9A3E1F
+P 7100 3500
+F 0 "J102" H 7018 2885 50  0000 C CNN
+F 1 "Screw_Terminal_01x07" H 7018 2976 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-7-5.08_1x07_P5.08mm_Horizontal" H 8900 3550 50  0000 C CNN
+F 3 "~" H 7100 3500 50  0001 C CNN
+	1    7100 3500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6000 5050 6900 5050
+Wire Wire Line
+	6000 1850 6900 1850
+Wire Wire Line
+	6100 3250 6100 3500
+Wire Wire Line
+	6900 3500 6100 3500
+Connection ~ 6100 3500
+Wire Wire Line
+	6100 3500 6100 3750
+Wire Wire Line
+	6100 2550 6100 2850
+Wire Wire Line
+	6900 1850 6900 3200
+Wire Wire Line
+	6900 5050 6900 3800
+Wire Wire Line
+	6100 1950 6100 2200
+Wire Wire Line
+	6100 3850 6100 4100
+Wire Wire Line
+	6100 4450 6100 4700
+Wire Wire Line
+	6100 4700 6750 4700
+Wire Wire Line
+	6750 4700 6750 3700
+Wire Wire Line
+	6750 3700 6900 3700
+Connection ~ 6100 4700
+Wire Wire Line
+	6100 4700 6100 4950
+Wire Wire Line
+	6100 4100 6600 4100
+Wire Wire Line
+	6600 4100 6600 3600
+Wire Wire Line
+	6600 3600 6900 3600
+Connection ~ 6100 4100
+Wire Wire Line
+	6100 4100 6100 4350
+Wire Wire Line
+	6100 2200 6750 2200
+Wire Wire Line
+	6750 2200 6750 3300
+Wire Wire Line
+	6750 3300 6900 3300
+Connection ~ 6100 2200
+Wire Wire Line
+	6100 2200 6100 2450
+Wire Wire Line
+	6100 2850 6600 2850
+Wire Wire Line
+	6600 2850 6600 3400
+Wire Wire Line
+	6600 3400 6900 3400
+Connection ~ 6100 2850
+Wire Wire Line
+	6100 2850 6100 3150
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F9AE6AC
+P 3150 1000
+F 0 "#FLG0101" H 3150 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 3150 1173 50  0000 C CNN
+F 2 "" H 3150 1000 50  0001 C CNN
+F 3 "~" H 3150 1000 50  0001 C CNN
+	1    3150 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1000 3150 1050
+Wire Wire Line
+	3150 1050 2850 1050
+Wire Wire Line
+	2850 1800 3150 1800
+Wire Wire Line
+	3150 1800 3150 1850
+Connection ~ 2850 1800
+Wire Wire Line
+	2850 1800 2850 1750
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F9B88FC
+P 3150 1850
+F 0 "#FLG0102" H 3150 1925 50  0001 C CNN
+F 1 "PWR_FLAG" H 3150 2023 50  0000 C CNN
+F 2 "" H 3150 1850 50  0001 C CNN
+F 3 "~" H 3150 1850 50  0001 C CNN
+	1    3150 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 5F9F266F
+P 700 1950
+F 0 "H101" H 800 1996 50  0000 L CNN
+F 1 "MountingHole" H 800 1905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 700 1950 50  0001 C CNN
+F 3 "~" H 700 1950 50  0001 C CNN
+	1    700  1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 5F9F3D50
+P 700 2200
+F 0 "H102" H 800 2246 50  0000 L CNN
+F 1 "MountingHole" H 800 2155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 700 2200 50  0001 C CNN
+F 3 "~" H 700 2200 50  0001 C CNN
+	1    700  2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 5F9F3FC5
+P 700 2450
+F 0 "H103" H 800 2496 50  0000 L CNN
+F 1 "MountingHole" H 800 2405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 700 2450 50  0001 C CNN
+F 3 "~" H 700 2450 50  0001 C CNN
+	1    700  2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 5F9F42A2
+P 700 2700
+F 0 "H104" H 800 2746 50  0000 L CNN
+F 1 "MountingHole" H 800 2655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 700 2700 50  0001 C CNN
+F 3 "~" H 700 2700 50  0001 C CNN
+	1    700  2700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,18 @@
+.HM2100NL :1 ;Audio Transformers / Signal Transformers MDL DUAL XFMR-CMC AEC-Q200
+SOP254P1493X345-10N
+*STM T
+*NGS
+*PLB 1="PRI 1_1" 2="PRI 1_2" 3="NC_1" 4="PRI 2_1" 5="PRI 2_2" 6="SEC 2" 7="SEC2" 8="NC_2" 9="SEC 1" 10="SEC1"
+*MXP 10
+*DFN HM2100NL
+~!Manufacturer_Name (Pulse)
+~!Manufacturer_Part_Number (HM2100NL)
+~!Arrow Part Number (HM2100NL)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/hm2100nl/pulse-electronics-corporation)
+~!Mouser Part Number (673-HM2100NL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HM2100NL?qs=1mbolxNpo8dwDSBbBgCdLQ%3D%3D)
+~!Link Datasheet (https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/HM2100NL/doc_part/HM2100NL.pdf)
+~!Height (3.45mm)
+~!3D_Model (HM2100NL)
+HM2100NL
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

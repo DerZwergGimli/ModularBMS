@@ -1,0 +1,121 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TEA_1-0505"
+   (description "Isolated DC/DC Converters 1W 4.5-5.5Vin 5Vout 200mA unreg SIP-4")
+   (family "ANA")
+   (package "TEA10505")
+   (attribute "Datasheet Link" "https://www.tracopower.com/sites/default/files/products/datasheets/tea1_datasheet.pdf")
+   (attribute "Geometry.Height" "10.15mm")
+   (attribute "Manufacturer_Name" "Traco Power")
+   (attribute "Manufacturer_Part_Number" "TEA 1-0505")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (attribute "Mouser Part Number" "495-TEA1-0505")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TEA-1-0505?qs=GedFDFLaBXEYm9Nac0%2F18A%3D%3D")
+   (gate
+    (symbol "TEA_1-0505")
+    (pin "-VIN_(GND)" 1 PS)
+    (pin "+VIN_(VCC)" 2 PS)
+    (pin "-VOUT" 3 PS)
+    (pin "+VOUT" 4 PS)
+   )
+  )
+  (symbol "TEA_1-0505"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TEA10505"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.03 5.1)
+      (pt 9.65 5.1)
+      (pt 9.65 -0.9)
+      (pt -2.03 -0.9)
+      (pt -2.03 5.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.03 5.1)
+      (pt 9.65 5.1)
+      (pt 9.65 -0.9)
+      (pt -2.03 -0.9)
+      (pt -2.03 5.1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.03 6.1)
+      (pt 10.65 6.1)
+      (pt 10.65 -2.9)
+      (pt -3.03 -2.9)
+      (pt -3.03 6.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.2 -1.8)
+      (arc (pt -0.200 -1.800) (pt -0.200 -1.900) (pt -0.000 -1.700) (start 180.0) (sweep 180.0))
+      (pt 0 -1.8)
+      (arc (pt 0.000 -1.800) (pt -0.200 -1.900) (pt 0.000 -1.700) (start 180.0) (sweep .0))
+      (pt -0.2 -1.8))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (leg 4 (pt 7.620 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.76)
+    (plated true)
+    (pad (layer TCOP) (round 1.303))
+    (pad (layer INNER) (round 1.303))
+    (pad (layer BCOP) (round 1.303))
+   )
+   (model "TEA_1-0505.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

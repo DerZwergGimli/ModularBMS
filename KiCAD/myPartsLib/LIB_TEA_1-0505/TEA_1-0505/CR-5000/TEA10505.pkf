@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TEA10505"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TEA10505")
+        (spec "default")
+    )
+)

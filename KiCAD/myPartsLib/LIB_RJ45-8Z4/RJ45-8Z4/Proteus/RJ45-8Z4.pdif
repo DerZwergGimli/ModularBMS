@@ -1,0 +1,239 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RJ45-8Z4"
+   (description "RJ45-8Z4 M0=F9770")
+   (family "CON")
+   (package "RJ458Z4")
+   (attribute "Datasheet Link" "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electronics%20Corcom%20PDFs/Z_Series.pdf")
+   (attribute "Geometry.Height" "13.08mm")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "RJ45-8Z4")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (attribute "Mouser Part Number" "592-RJ45-8Z4")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=592-RJ45-8Z4")
+   (gate
+    (symbol "RJ45-8Z4")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+    (pin "7" 7 PS)
+    (pin "8" 8 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+   )
+  )
+  (symbol "RJ45-8Z4"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RJ458Z4"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -14.23 -12.445)
+      (pt 4.57 -12.445)
+      (pt 4.57 3.555)
+      (pt -14.23 3.555)
+      (pt -14.23 -12.445))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 4.57 -12.445)
+      (pt -5.25 -12.445)
+      (pt -5.25 -12.445)
+      (pt 4.57 -12.445)
+      (pt 4.57 -12.445))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -12 -12.445)
+      (pt -14.25 -12.445)
+      (pt -14.25 -12.445)
+      (pt -12 -12.445)
+      (pt -12 -12.445))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -14.25 -12.445)
+      (pt -14.23 -12.445)
+      (pt -14.23 3.555)
+      (pt -14.25 3.555)
+      (pt -14.25 -12.445))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -14.23 3.555)
+      (pt -11.5 3.555)
+      (pt -11.5 3.555)
+      (pt -14.23 3.555)
+      (pt -14.23 3.555))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7 3.555)
+      (pt 4.57 3.555)
+      (pt 4.57 3.555)
+      (pt -7 3.555)
+      (pt -7 3.555))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -15.25 6.188)
+      (pt 7.1 6.188)
+      (pt 7.1 -15.078)
+      (pt -15.25 -15.078)
+      (pt -15.25 6.188))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 4.57 3.555)
+      (pt 4.57 3.555)
+      (pt 4.57 -12.445)
+      (pt 4.57 -12.445)
+      (pt 4.57 3.555))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 6 0)
+      (arc (pt 6.000 0.000) (pt 6.000 -0.050) (pt 6.100 0.050) (start 180.0) (sweep -180.0))
+      (pt 6.1 0)
+      (arc (pt 6.100 0.000) (pt 6.000 -0.050) (pt 6.100 0.050) (start 180.0) (sweep .0))
+      (pt 6 0)
+      (arc (pt 6.000 0.000) (pt 6.000 -0.050) (pt 6.100 0.050) (start 180.0) (sweep -180.0))
+      (pt 6.1 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 -1.270) (padstack 0))
+   (leg 3 (pt 0.000 -2.540) (padstack 0))
+   (leg 4 (pt 2.540 -3.810) (padstack 0))
+   (leg 5 (pt 0.000 -5.080) (padstack 0))
+   (leg 6 (pt 2.540 -6.350) (padstack 0))
+   (leg 7 (pt 0.000 -7.620) (padstack 0))
+   (leg 8 (pt 2.540 -8.890) (padstack 0))
+   (leg MH1 (pt -9.400 3.680) (padstack 9))
+   (leg MH2 (pt -9.400 -12.570) (padstack 10))
+   (leg MH3 (pt -6.350 1.270) (padstack 11))
+   (leg MH4 (pt -6.350 -10.160) (padstack 12))
+   (padstack 0
+    (hole 0.96)
+    (plated true)
+    (pad (layer TCOP) (round 1.493))
+    (pad (layer INNER) (round 1.493))
+    (pad (layer BCOP) (round 1.493))
+   )
+   (padstack 9
+    (hole 2.01)
+    (plated true)
+    (pad (layer TCOP) (round 3.015))
+    (pad (layer INNER) (round 3.015))
+    (pad (layer BCOP) (round 3.015))
+   )
+   (padstack 10
+    (hole 2.01)
+    (plated true)
+    (pad (layer TCOP) (round 3.015))
+    (pad (layer INNER) (round 3.015))
+    (pad (layer BCOP) (round 3.015))
+   )
+   (padstack 11
+    (hole 3.33)
+    (plated false)
+    (pad (layer TCOP) (round 1.665))
+    (pad (layer INNER) (round 1.665))
+    (pad (layer BCOP) (round 1.665))
+   )
+   (padstack 12
+    (hole 3.33)
+    (plated false)
+    (pad (layer TCOP) (round 1.665))
+    (pad (layer INNER) (round 1.665))
+    (pad (layer BCOP) (round 1.665))
+   )
+   (model "RJ45-8Z4.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

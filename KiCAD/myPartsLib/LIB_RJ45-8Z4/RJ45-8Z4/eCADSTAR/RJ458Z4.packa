@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RJ45-8Z4"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-03-20:49:57)
+    (mountForm default
+        (footprintRef "RJ458Z4")
+        (spec "System")
+    )
+)

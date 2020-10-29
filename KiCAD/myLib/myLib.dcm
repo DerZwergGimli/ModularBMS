@@ -1,0 +1,30 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS308PE
+F https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073
+$ENDCMP
+#
+$CMP LTC6255
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6255-6256-6257.pdf
+$ENDCMP
+#
+$CMP LTC6810-1_mod
+D Battery Balancer IC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6810-1-6810-2.pdf
+$ENDCMP
+#
+$CMP LTC6811-1
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6811-1-6811-2.pdf
+$ENDCMP
+#
+$CMP ROE-0512S
+D Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 12V dc
+F https://componentsearchengine.com/Datasheets/2/ROE-0512S.pdf
+$ENDCMP
+#
+$CMP TEA_1-0505
+D Isolated DC/DC Converters 1W 4.5-5.5Vin 5Vout 200mA unreg SIP-4
+F https://www.tracopower.com/sites/default/files/products/datasheets/tea1_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
