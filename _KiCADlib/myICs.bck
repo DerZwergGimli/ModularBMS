@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6810-1_mod
+D Battery Balancer IC
+K BMS, BatteryManagementSystem
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6810-1-6810-2.pdf
+$ENDCMP
+#
+$CMP LTC6820IMS#PBF
+D Interface - Specialized isoSPI Iso Communications Int
+K isoSPI, isolation, IC
+F https://componentsearchengine.com/Datasheets/1/LTC6820IMS#PBF.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name myICs)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/myICs.lib)(options "")(descr ""))
+  (lib (name myLib)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myLib/myLib.lib)(options "")(descr "")(disabled))
+  (lib (name teensy)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/teensy.lib)(options "")(descr ""))
+)

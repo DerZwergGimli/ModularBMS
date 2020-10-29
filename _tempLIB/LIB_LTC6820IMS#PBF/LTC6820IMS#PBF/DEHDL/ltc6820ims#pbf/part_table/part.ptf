@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC6820IMS#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LTC6820IMS#PBF" (!) = "", "SOP50P490X110-16N", "Small Outline Packages", "LTC6820IMS#PBF", "https://www.arrow.com/en/products/ltc6820imspbf/analog-devices", "584-LTC6820IMS#PBF", "https://www.mouser.com/Search/Refine.aspx?Keyword=584-LTC6820IMS%23PBF", "Interface - Specialized isoSPI Iso Communications Int", "https://componentsearchengine.com/Datasheets/1/LTC6820IMS#PBF.pdf", "1.1 mm"
+END_PART
+
+END.
