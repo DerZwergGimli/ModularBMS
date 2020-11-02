@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name HM2112ZNL)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myPartsLib/LIB_HM2112ZNL/HM2112ZNL/KiCad/HM2112ZNL.mod)(options "")(descr ""))
+  (lib (name DXT5551P5-13)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myPartsLib/LIB_DXT5551P5-13/DXT5551P5-13/KiCad/DXT5551P5-13.mod)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name mylib)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myLib/mylib.pretty)(options "")(descr "")(disabled))
+  (lib (name myLib)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myLib)(options "")(descr ""))
+)

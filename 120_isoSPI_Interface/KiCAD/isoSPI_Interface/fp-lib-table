@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name mytransformer)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/mytransformer.pretty)(options "")(descr ""))
+  (lib (name myLogo)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/myLogo.pretty)(options "")(descr ""))
+  (lib (name myConnector)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/myConnector.pretty)(options "")(descr ""))
+  (lib (name SS-6466S-A-PG1)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_tempLIB/LIB_SS-6466S-A-PG1/SS-6466S-A-PG1/KiCad/SS-6466S-A-PG1.mod)(options "")(descr ""))
+)

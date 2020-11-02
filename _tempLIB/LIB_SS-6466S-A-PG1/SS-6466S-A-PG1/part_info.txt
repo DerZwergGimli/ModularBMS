@@ -1,0 +1,9 @@
+Manufacturer=Stewart Connector
+PartNumber=SS-6466S-A-PG1
+PartCategory=Connector
+PackageCategory=Other
+PinCount=8
+Version=2.8
+Released=2016-06-23 22:39:19
+Downloaded=2020-11-01 21:58:01
+3D=Y

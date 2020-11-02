@@ -1,0 +1,19 @@
+.SS-6466S-A-PG1 :1 ;Modular Connectors / Ethernet Connectors RJ45 Connector
+SS6466SAPG1
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=MH1 8=MH2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="MH1" 8="MH2"
+*MXP 10
+*DFN SS-6466S-A-PG1
+~!Manufacturer_Name (Stewart Connector)
+~!Manufacturer_Part_Number (SS-6466S-A-PG1)
+~!Arrow Part Number (SS-6466S-A-PG1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ss-6466s-a-pg1/bel-group)
+~!Mouser Part Number (530-SS-6466S-A-PG1)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=530-SS-6466S-A-PG1)
+~!Link Datasheet (http://www.mouser.com/ds/2/643/CT640176-531832.pdf)
+~!Height (13.97mm)
+~!3D_Model (SS-6466S-A-PG1)
+SS-6466S-A-PG1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

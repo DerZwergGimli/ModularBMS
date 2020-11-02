@@ -1,0 +1,121 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Memory_EEPROM:24LC256 U?
+U 1 1 5FDA6958
+P 2350 1450
+AR Path="/5FDA6958" Ref="U?"  Part="1" 
+AR Path="/5FDA31C7/5FDA6958" Ref="U1101"  Part="1" 
+F 0 "U1101" H 2100 1700 50  0000 C CNN
+F 1 "24LC256" H 2600 1200 50  0000 C CNN
+F 2 "" H 2350 1450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf" H 2350 1450 50  0001 C CNN
+	1    2350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01103
+U 1 1 5FDA8071
+P 1700 1650
+F 0 "#PWR01103" H 1700 1400 50  0001 C CNN
+F 1 "GND" H 1705 1477 50  0000 C CNN
+F 2 "" H 1700 1650 50  0001 C CNN
+F 3 "" H 1700 1650 50  0001 C CNN
+	1    1700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1650 1700 1550
+Wire Wire Line
+	1700 1550 1950 1550
+Wire Wire Line
+	1950 1450 1700 1450
+Wire Wire Line
+	1700 1450 1700 1550
+Connection ~ 1700 1550
+Wire Wire Line
+	1700 1450 1700 1350
+Wire Wire Line
+	1700 1350 1950 1350
+Connection ~ 1700 1450
+Wire Wire Line
+	3100 1550 2750 1550
+Wire Wire Line
+	2750 1450 3100 1450
+Wire Wire Line
+	3100 1350 2750 1350
+$Comp
+L power:+5V #PWR01101
+U 1 1 5FDA99A0
+P 2350 950
+F 0 "#PWR01101" H 2350 800 50  0001 C CNN
+F 1 "+5V" H 2365 1123 50  0000 C CNN
+F 2 "" H 2350 950 50  0001 C CNN
+F 3 "" H 2350 950 50  0001 C CNN
+	1    2350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1101
+U 1 1 5FDAA32D
+P 2600 1050
+F 0 "C1101" V 2371 1050 50  0000 C CNN
+F 1 "C_Small" V 2462 1050 50  0000 C CNN
+F 2 "" H 2600 1050 50  0001 C CNN
+F 3 "~" H 2600 1050 50  0001 C CNN
+	1    2600 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01102
+U 1 1 5FDABDA8
+P 2750 1050
+F 0 "#PWR01102" H 2750 800 50  0001 C CNN
+F 1 "GND" V 2755 922 50  0000 R CNN
+F 2 "" H 2750 1050 50  0001 C CNN
+F 3 "" H 2750 1050 50  0001 C CNN
+	1    2750 1050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 1050 2700 1050
+Wire Wire Line
+	2350 1150 2350 1050
+Wire Wire Line
+	2500 1050 2350 1050
+Connection ~ 2350 1050
+Wire Wire Line
+	2350 1050 2350 950 
+$Comp
+L power:GND #PWR01104
+U 1 1 5FDAC735
+P 2350 1800
+F 0 "#PWR01104" H 2350 1550 50  0001 C CNN
+F 1 "GND" H 2355 1627 50  0000 C CNN
+F 2 "" H 2350 1800 50  0001 C CNN
+F 3 "" H 2350 1800 50  0001 C CNN
+	1    2350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1800 2350 1750
+Text HLabel 3100 1350 2    50   BiDi ~ 0
+EEPROM_SDA
+Text HLabel 3100 1450 2    50   BiDi ~ 0
+EEPROM_SCL
+Text HLabel 3100 1550 2    50   BiDi ~ 0
+EEPROM_~ENABLE
+$EndSCHEMATC

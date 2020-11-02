@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name myICs)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/myICs.lib)(options "")(descr ""))
+  (lib (name myTransfomer)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/myTransfomer.lib)(options "")(descr ""))
+  (lib (name myLib)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myLib/myLib.lib)(options "")(descr "")(disabled))
+  (lib (name myConnector)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/myConnector.lib)(options "")(descr ""))
+  (lib (name SS-6466S-A-PG1)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_tempLIB/LIB_SS-6466S-A-PG1/SS-6466S-A-PG1/KiCad/SS-6466S-A-PG1.lib)(options "")(descr ""))
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SS-6466S-A-PG1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-16-09:43:05)
+    (mountForm default
+        (footprintRef "SS6466SAPG1")
+        (spec "System")
+    )
+)

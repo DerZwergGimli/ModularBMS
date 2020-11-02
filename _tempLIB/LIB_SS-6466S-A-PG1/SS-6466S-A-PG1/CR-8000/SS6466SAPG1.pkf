@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SS6466SAPG1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SS6466SAPG1")
+        (spec "default")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SS_6466S_A_PG1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Stewart Connector", "SS-6466S-A-PG1" (!) = "", "SS6466SAPG1", "Other", "SS-6466S-A-PG1", "https://www.arrow.com/en/products/ss-6466s-a-pg1/bel-group", "530-SS-6466S-A-PG1", "https://www.mouser.com/Search/Refine.aspx?Keyword=530-SS-6466S-A-PG1", "Modular Connectors / Ethernet Connectors RJ45 Connector", "http://www.mouser.com/ds/2/643/CT640176-531832.pdf", "13.97 mm"
+END_PART
+
+END.

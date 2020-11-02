@@ -9,7 +9,7 @@ $ENDCMP
 $CMP LTC6820IMS#PBF
 D Interface - Specialized isoSPI Iso Communications Int
 K isoSPI, isolation, IC
-F https://componentsearchengine.com/Datasheets/1/LTC6820IMS#PBF.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf
 $ENDCMP
 #
 #End Doc Library

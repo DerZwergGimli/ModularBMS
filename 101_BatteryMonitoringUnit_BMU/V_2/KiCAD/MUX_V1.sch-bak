@@ -1,0 +1,305 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Analog_Switch:ADG728 U?
+U 1 1 5FDC1C16
+P 6300 2450
+F 0 "U?" H 6744 2546 50  0000 L CNN
+F 1 "ADG728" H 6744 2455 50  0000 L CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 6550 1600 50  0001 L CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG728_729.pdf" H 6310 2450 50  0001 C CNN
+	1    6300 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L myLib:LTC6255 U?
+U 1 1 5FDC83AA
+P 4250 3500
+F 0 "U?" H 4644 3546 50  0000 L CNN
+F 1 "LTC6255" H 4644 3455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 5250 3650 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6255-6256-6257.pdf" H 4800 3250 50  0001 C CNN
+	1    4250 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Analog_Switch:ADG728 U?
+U 1 1 5FDCA756
+P 6300 5050
+F 0 "U?" H 6744 5146 50  0000 L CNN
+F 1 "ADG728" H 6744 5055 50  0000 L CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 6550 4200 50  0001 L CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG728_729.pdf" H 6310 5050 50  0001 C CNN
+	1    6300 5050
+	-1   0    0    -1  
+$EndComp
+Text Label 7000 2350 0    50   ~ 0
+AnalogIN_0
+Text Label 7000 2450 0    50   ~ 0
+AnalogIN_1
+Text Label 7000 2550 0    50   ~ 0
+AnalogIN_2
+Text Label 7000 2650 0    50   ~ 0
+AnalogIN_3
+Text Label 7000 2750 0    50   ~ 0
+AnalogIN_4
+Text Label 7000 2850 0    50   ~ 0
+AnalogIN_5
+Text Label 7000 2950 0    50   ~ 0
+AnalogIN_6
+Text Label 7000 3050 0    50   ~ 0
+AnalogIN_7
+Text Label 7000 4950 0    50   ~ 0
+AnalogIN_8
+Text Label 7000 5050 0    50   ~ 0
+AnalogIN_9
+Text Label 7000 5150 0    50   ~ 0
+AnalogIN_10
+Text Label 7000 5250 0    50   ~ 0
+AnalogIN_11
+Text Label 7000 5350 0    50   ~ 0
+AnalogIN_12
+Text Label 7000 5450 0    50   ~ 0
+AnalogIN_13
+Text Label 7000 5550 0    50   ~ 0
+AnalogIN_14
+Text Label 7000 5650 0    50   ~ 0
+AnalogIN_15
+Wire Wire Line
+	6700 2350 7000 2350
+Wire Wire Line
+	7000 2450 6700 2450
+Wire Wire Line
+	6700 2550 7000 2550
+Wire Wire Line
+	7000 2650 6700 2650
+Wire Wire Line
+	6700 2750 7000 2750
+Wire Wire Line
+	7000 2850 6700 2850
+Wire Wire Line
+	6700 2950 7000 2950
+Wire Wire Line
+	6700 3050 7000 3050
+Wire Wire Line
+	6700 4950 7000 4950
+Wire Wire Line
+	7000 5050 6700 5050
+Wire Wire Line
+	6700 5150 7000 5150
+Wire Wire Line
+	7000 5250 6700 5250
+Wire Wire Line
+	6700 5350 7000 5350
+Wire Wire Line
+	7000 5450 6700 5450
+Wire Wire Line
+	6700 5550 7000 5550
+Wire Wire Line
+	7000 5650 6700 5650
+$Comp
+L power:+5V #PWR?
+U 1 1 5FDEEDFC
+P 6100 1450
+F 0 "#PWR?" H 6100 1300 50  0001 C CNN
+F 1 "+5V" H 6115 1623 50  0000 C CNN
+F 2 "" H 6100 1450 50  0001 C CNN
+F 3 "" H 6100 1450 50  0001 C CNN
+	1    6100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FDF6C3A
+P 6350 1500
+F 0 "C?" V 6121 1500 50  0000 C CNN
+F 1 "C_Small" V 6212 1500 50  0000 C CNN
+F 2 "" H 6350 1500 50  0001 C CNN
+F 3 "~" H 6350 1500 50  0001 C CNN
+	1    6350 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 1550 6100 1500
+Wire Wire Line
+	6100 1500 6250 1500
+Connection ~ 6100 1500
+Wire Wire Line
+	6100 1500 6100 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF933A
+P 6500 1500
+F 0 "#PWR?" H 6500 1250 50  0001 C CNN
+F 1 "GND" V 6505 1372 50  0000 R CNN
+F 2 "" H 6500 1500 50  0001 C CNN
+F 3 "" H 6500 1500 50  0001 C CNN
+	1    6500 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 1500 6450 1500
+$Comp
+L power:+5V #PWR?
+U 1 1 5FDFE301
+P 6100 4050
+F 0 "#PWR?" H 6100 3900 50  0001 C CNN
+F 1 "+5V" H 6115 4223 50  0000 C CNN
+F 2 "" H 6100 4050 50  0001 C CNN
+F 3 "" H 6100 4050 50  0001 C CNN
+	1    6100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FDFE307
+P 6350 4100
+F 0 "C?" V 6121 4100 50  0000 C CNN
+F 1 "C_Small" V 6212 4100 50  0000 C CNN
+F 2 "" H 6350 4100 50  0001 C CNN
+F 3 "~" H 6350 4100 50  0001 C CNN
+	1    6350 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 4150 6100 4100
+Wire Wire Line
+	6100 4100 6250 4100
+Connection ~ 6100 4100
+Wire Wire Line
+	6100 4100 6100 4050
+$Comp
+L power:GND #PWR?
+U 1 1 5FDFE311
+P 6500 4100
+F 0 "#PWR?" H 6500 3850 50  0001 C CNN
+F 1 "GND" V 6505 3972 50  0000 R CNN
+F 2 "" H 6500 4100 50  0001 C CNN
+F 3 "" H 6500 4100 50  0001 C CNN
+	1    6500 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 4100 6450 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5FE05067
+P 6100 3300
+F 0 "#PWR?" H 6100 3050 50  0001 C CNN
+F 1 "GND" H 6105 3127 50  0000 C CNN
+F 2 "" H 6100 3300 50  0001 C CNN
+F 3 "" H 6100 3300 50  0001 C CNN
+	1    6100 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3300 6100 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5FE07471
+P 6100 5900
+F 0 "#PWR?" H 6100 5650 50  0001 C CNN
+F 1 "GND" H 6105 5727 50  0000 C CNN
+F 2 "" H 6100 5900 50  0001 C CNN
+F 3 "" H 6100 5900 50  0001 C CNN
+	1    6100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 5900 6100 5850
+$Comp
+L Device:R_Small R?
+U 1 1 5FE0966E
+P 3300 3500
+F 0 "R?" V 3104 3500 50  0000 C CNN
+F 1 "100" V 3195 3500 50  0000 C CNN
+F 2 "" H 3300 3500 50  0001 C CNN
+F 3 "~" H 3300 3500 50  0001 C CNN
+	1    3300 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 5450 4850 5450
+Wire Wire Line
+	4850 5450 4850 3600
+Wire Wire Line
+	4850 3600 4500 3600
+Wire Wire Line
+	4850 2850 5900 2850
+Wire Wire Line
+	4850 2850 4850 3600
+Connection ~ 4850 3600
+Wire Wire Line
+	3900 3500 3750 3500
+Wire Wire Line
+	3750 3500 3750 2700
+Wire Wire Line
+	3750 2700 4500 2700
+Wire Wire Line
+	4500 2700 4500 3400
+Wire Wire Line
+	3400 3500 3750 3500
+Connection ~ 3750 3500
+Text HLabel 3000 3500 0    50   Output ~ 0
+AnalogOut
+Wire Wire Line
+	3000 3500 3200 3500
+$Comp
+L Device:C_Small C?
+U 1 1 5FE21049
+P 3300 3150
+F 0 "C?" V 3071 3150 50  0000 C CNN
+F 1 "C_Small" V 3162 3150 50  0000 C CNN
+F 2 "" H 3300 3150 50  0001 C CNN
+F 3 "~" H 3300 3150 50  0001 C CNN
+	1    3300 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FE2B0E7
+P 4250 3850
+F 0 "#PWR?" H 4250 3700 50  0001 C CNN
+F 1 "+5V" H 4265 4023 50  0000 C CNN
+F 2 "" H 4250 3850 50  0001 C CNN
+F 3 "" H 4250 3850 50  0001 C CNN
+	1    4250 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 3850 4250 3800
+Wire Wire Line
+	4250 3150 4250 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5FE2226B
+P 4250 3150
+F 0 "#PWR?" H 4250 2900 50  0001 C CNN
+F 1 "GND" H 4255 2977 50  0000 C CNN
+F 2 "" H 4250 3150 50  0001 C CNN
+F 3 "" H 4250 3150 50  0001 C CNN
+	1    4250 3150
+	-1   0    0    1   
+$EndComp
+Text HLabel 7050 1750 2    50   BiDi ~ 0
+MUX_SCL
+Text HLabel 7050 1850 2    50   BiDi ~ 0
+MUX_SDA
+Text HLabel 7000 4350 2    50   BiDi ~ 0
+MUX_SCL
+Text HLabel 7000 4450 2    50   BiDi ~ 0
+MUX_SDA
+$EndSCHEMATC
