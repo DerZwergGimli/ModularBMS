@@ -4,4 +4,5 @@
   (lib (name digikey-footprints)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
   (lib (name mylib)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myLib/mylib.pretty)(options "")(descr "")(disabled))
   (lib (name myLib)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myLib)(options "")(descr ""))
+  (lib (name myLogo)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/myLogo.pretty)(options "")(descr ""))
 )

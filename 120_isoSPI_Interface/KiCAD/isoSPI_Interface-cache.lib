@@ -254,6 +254,17 @@ X VDD 9 1200 -700 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# myLogo_Logo
+#
+DEF myLogo_Logo L 0 40 Y Y 1 F N
+F0 "L" 0 50 50 H V C CNN
+F1 "myLogo_Logo" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
 # myTransfomer_HM2112ZNL
 #
 DEF myTransfomer_HM2112ZNL T 0 30 Y Y 1 F N

@@ -2,4 +2,5 @@
   (lib (name TEA_1-0505)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myPartsLib/LIB_TEA_1-0505/TEA_1-0505/KiCad/TEA_1-0505.lib)(options "")(descr "")(disabled))
   (lib (name myLib)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myLib/myLib.lib)(options "")(descr ""))
   (lib (name ROE-0512S)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myPartsLib/LIB_ROE-0512S/ROE-0512S/KiCad/ROE-0512S.lib)(options "")(descr "")(disabled))
+  (lib (name myLogo)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/myLogo.lib)(options "")(descr ""))
 )

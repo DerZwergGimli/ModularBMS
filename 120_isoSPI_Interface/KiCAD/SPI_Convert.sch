@@ -21,7 +21,7 @@ AR Path="/5FB3900B" Ref="IC?"  Part="1"
 AR Path="/5FB28DB3/5FB3900B" Ref="IC201"  Part="1" 
 AR Path="/5FBF5FED/5FB3900B" Ref="IC?"  Part="1" 
 AR Path="/5FBFC203/5FB3900B" Ref="IC401"  Part="1" 
-F 0 "IC201" H 5000 3515 50  0000 C CNN
+F 0 "IC401" H 5000 3515 50  0000 C CNN
 F 1 "LTC6820IMS#PBF" H 5000 3424 50  0000 C CNN
 F 2 "Package_SO:MSOP-16_3x4.039mm_P0.5mm" H 5450 3350 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf" H 5450 3250 50  0001 L CNN
@@ -38,7 +38,7 @@ AR Path="/5FB39011" Ref="R?"  Part="1"
 AR Path="/5FB28DB3/5FB39011" Ref="R202"  Part="1" 
 AR Path="/5FBF5FED/5FB39011" Ref="R?"  Part="1" 
 AR Path="/5FBFC203/5FB39011" Ref="R402"  Part="1" 
-F 0 "R202" H 7459 2596 50  0000 L CNN
+F 0 "R402" H 7459 2596 50  0000 L CNN
 F 1 "1k" H 7459 2505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7400 2550 50  0001 C CNN
 F 3 "~" H 7400 2550 50  0001 C CNN
@@ -53,7 +53,7 @@ AR Path="/5FB39017" Ref="R?"  Part="1"
 AR Path="/5FB28DB3/5FB39017" Ref="R203"  Part="1" 
 AR Path="/5FBF5FED/5FB39017" Ref="R?"  Part="1" 
 AR Path="/5FBFC203/5FB39017" Ref="R403"  Part="1" 
-F 0 "R203" H 7459 2896 50  0000 L CNN
+F 0 "R403" H 7459 2896 50  0000 L CNN
 F 1 "1k" H 7459 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7400 2850 50  0001 C CNN
 F 3 "~" H 7400 2850 50  0001 C CNN
@@ -68,7 +68,7 @@ AR Path="/5FB39037" Ref="C?"  Part="1"
 AR Path="/5FB28DB3/5FB39037" Ref="C201"  Part="1" 
 AR Path="/5FBF5FED/5FB39037" Ref="C?"  Part="1" 
 AR Path="/5FBFC203/5FB39037" Ref="C401"  Part="1" 
-F 0 "C201" H 4458 2404 50  0000 R CNN
+F 0 "C401" H 4458 2404 50  0000 R CNN
 F 1 "0.1uF" H 4458 2495 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 2450 50  0001 C CNN
 F 3 "~" H 4550 2450 50  0001 C CNN
@@ -134,7 +134,7 @@ AR Path="/5FB3907A" Ref="J?"  Part="1"
 AR Path="/5FB28DB3/5FB3907A" Ref="J202"  Part="1" 
 AR Path="/5FBF5FED/5FB3907A" Ref="J?"  Part="1" 
 AR Path="/5FBFC203/5FB3907A" Ref="J402"  Part="1" 
-F 0 "J202" V 2895 3322 50  0000 R CNN
+F 0 "J402" V 2895 3322 50  0000 R CNN
 F 1 "3PinHeader" H 3078 3413 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3000 3650 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3000 3750 60  0001 L CNN
@@ -158,7 +158,7 @@ AR Path="/5FB39089" Ref="J?"  Part="1"
 AR Path="/5FB28DB3/5FB39089" Ref="J204"  Part="1" 
 AR Path="/5FBF5FED/5FB39089" Ref="J?"  Part="1" 
 AR Path="/5FBFC203/5FB39089" Ref="J404"  Part="1" 
-F 0 "J204" V 2895 3872 50  0000 R CNN
+F 0 "J404" V 2895 3872 50  0000 R CNN
 F 1 "3PinHeader" H 3078 3963 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3000 4200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3000 4300 60  0001 L CNN
@@ -194,7 +194,7 @@ AR Path="/5FB390AA" Ref="J?"  Part="1"
 AR Path="/5FB28DB3/5FB390AA" Ref="J205"  Part="1" 
 AR Path="/5FBF5FED/5FB390AA" Ref="J?"  Part="1" 
 AR Path="/5FBFC203/5FB390AA" Ref="J405"  Part="1" 
-F 0 "J205" V 7445 4072 50  0000 R CNN
+F 0 "J405" V 7445 4072 50  0000 R CNN
 F 1 "3PinHeader" H 7628 4163 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7550 4400 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 7550 4500 60  0001 L CNN
@@ -226,7 +226,7 @@ AR Path="/5FB390C3" Ref="J?"  Part="1"
 AR Path="/5FB28DB3/5FB390C3" Ref="J203"  Part="1" 
 AR Path="/5FBF5FED/5FB390C3" Ref="J?"  Part="1" 
 AR Path="/5FBFC203/5FB390C3" Ref="J403"  Part="1" 
-F 0 "J203" V 7445 3522 50  0000 R CNN
+F 0 "J403" V 7445 3522 50  0000 R CNN
 F 1 "3PinHeader" H 7628 3613 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7550 3850 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 7550 3950 60  0001 L CNN
@@ -260,7 +260,7 @@ AR Path="/5FB390F2" Ref="C?"  Part="1"
 AR Path="/5FB28DB3/5FB390F2" Ref="C202"  Part="1" 
 AR Path="/5FBF5FED/5FB390F2" Ref="C?"  Part="1" 
 AR Path="/5FBFC203/5FB390F2" Ref="C402"  Part="1" 
-F 0 "C202" H 5058 2404 50  0000 R CNN
+F 0 "C402" H 5058 2404 50  0000 R CNN
 F 1 "0.1uF" H 5058 2495 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5150 2450 50  0001 C CNN
 F 3 "~" H 5150 2450 50  0001 C CNN
@@ -283,7 +283,7 @@ AR Path="/5FB39109" Ref="R?"  Part="1"
 AR Path="/5FB28DB3/5FB39109" Ref="R201"  Part="1" 
 AR Path="/5FBF5FED/5FB39109" Ref="R?"  Part="1" 
 AR Path="/5FBFC203/5FB39109" Ref="R401"  Part="1" 
-F 0 "R201" H 3159 2296 50  0000 L CNN
+F 0 "R401" H 3159 2296 50  0000 L CNN
 F 1 "2k" H 3159 2205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3100 2250 50  0001 C CNN
 F 3 "~" H 3100 2250 50  0001 C CNN
@@ -330,7 +330,7 @@ AR Path="/5FB5C8F8" Ref="J?"  Part="1"
 AR Path="/5FB28DB3/5FB5C8F8" Ref="J201"  Part="1" 
 AR Path="/5FBF5FED/5FB5C8F8" Ref="J?"  Part="1" 
 AR Path="/5FBFC203/5FB5C8F8" Ref="J401"  Part="1" 
-F 0 "J201" V 2895 2772 50  0000 R CNN
+F 0 "J401" V 2895 2772 50  0000 R CNN
 F 1 "3PinHeader" H 3078 2863 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3000 3100 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 3000 3200 60  0001 L CNN

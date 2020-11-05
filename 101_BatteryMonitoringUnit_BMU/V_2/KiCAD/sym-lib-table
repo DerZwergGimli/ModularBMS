@@ -4,4 +4,5 @@
   (lib (name HM2112ZNL)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myPartsLib/LIB_HM2112ZNL/HM2112ZNL/KiCad/HM2112ZNL.lib)(options "")(descr ""))
   (lib (name DXT5551P5-13)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myPartsLib/LIB_DXT5551P5-13/DXT5551P5-13/KiCad/DXT5551P5-13.lib)(options "")(descr ""))
   (lib (name myPower)(type Legacy)(uri ${KIPRJMOD}/myPower.lib)(options "")(descr ""))
+  (lib (name myLogo)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/myLogo.lib)(options "")(descr ""))
 )

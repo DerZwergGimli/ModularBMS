@@ -3,4 +3,5 @@
   (lib (name myLib)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myLib)(options "")(descr ""))
   (lib (name ROE-0512S)(type Legacy)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/myPartsLib/LIB_ROE-0512S/ROE-0512S/KiCad/ROE-0512S.mod)(options "")(descr "")(disabled))
   (lib (name digikey-footprints)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/KiCAD/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name myLogo)(type KiCad)(uri /home/yannick/Nextcloud/HTWG/08_Bachalorarbeit/_KiCADlib/myLogo.pretty)(options "")(descr ""))
 )

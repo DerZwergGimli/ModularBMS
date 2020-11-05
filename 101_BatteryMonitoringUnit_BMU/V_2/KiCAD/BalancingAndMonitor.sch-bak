@@ -289,13 +289,13 @@ Wire Wire Line
 	2550 4550 3350 4550
 Wire Wire Line
 	2950 5050 2950 4450
+Connection ~ 2950 4450
+Wire Wire Line
+	2950 4450 3350 4450
 Wire Bus Line
 	2750 750  2750 4350
 Wire Bus Line
 	2450 950  2450 4450
 Wire Bus Line
 	5350 750  5350 4600
-Connection ~ 2950 4450
-Wire Wire Line
-	2950 4450 3350 4450
 $EndSCHEMATC

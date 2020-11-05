@@ -347,8 +347,8 @@ $Comp
 L Connector:Screw_Terminal_01x08 J102
 U 1 1 5F9DC92B
 P 7200 3500
-F 0 "J102" H 7118 2875 50  0000 C CNN
-F 1 "Screw_Terminal_01x08" H 7118 2966 50  0000 C CNN
+F 0 "J102" H 7200 2950 50  0000 C CNN
+F 1 "Screw_Terminal_01x08" V 7300 3450 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-8-5.0-H_1x08_P5.00mm_Horizontal" H 7200 3500 50  0001 C CNN
 F 3 "~" H 7200 3500 50  0001 C CNN
 	1    7200 3500
@@ -393,4 +393,26 @@ Wire Wire Line
 Connection ~ 6100 1650
 Wire Wire Line
 	6100 1650 6100 1450
+$Comp
+L myLogo:Logo L?
+U 1 1 5FA0457A
+P 2150 4850
+F 0 "L?" H 2175 4896 50  0000 L CNN
+F 1 "LogoOSH" H 2175 4805 50  0000 L CNN
+F 2 "myLogo:OpenSouceHardwareLOGO" H 2150 4850 50  0001 C CNN
+F 3 "" H 2150 4850 50  0001 C CNN
+	1    2150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L myLogo:Logo L?
+U 1 1 5FA04AA8
+P 2150 4450
+F 0 "L?" H 2175 4496 50  0000 L CNN
+F 1 "LogoHTWG" H 2175 4405 50  0000 L CNN
+F 2 "myLogo:HTWG_LOGO" H 2150 4450 50  0001 C CNN
+F 3 "" H 2150 4450 50  0001 C CNN
+	1    2150 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

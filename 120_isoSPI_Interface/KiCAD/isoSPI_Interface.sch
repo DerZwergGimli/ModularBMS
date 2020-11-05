@@ -612,4 +612,34 @@ Text Notes 6650 1950 0    197  ~ 0
 Channel1
 Text Notes 6650 4350 0    197  ~ 0
 Channel2\n
+Wire Wire Line
+	9800 1800 10950 1800
+Wire Wire Line
+	10950 1800 10950 3450
+Wire Wire Line
+	10950 3450 9850 3450
+Connection ~ 9800 1800
+Connection ~ 9850 3450
+$Comp
+L myLogo:Logo L101
+U 1 1 5FA05524
+P 1650 800
+F 0 "L101" H 1675 846 50  0000 L CNN
+F 1 "LogoHTWG" H 1675 755 50  0000 L CNN
+F 2 "myLogo:HTWG_LOGO" H 1650 800 50  0001 C CNN
+F 3 "" H 1650 800 50  0001 C CNN
+	1    1650 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L myLogo:Logo L102
+U 1 1 5FA0606A
+P 1650 1150
+F 0 "L102" H 1675 1196 50  0000 L CNN
+F 1 "LogoOSH" H 1675 1105 50  0000 L CNN
+F 2 "myLogo:OpenSouceHardwareLOGO" H 1650 1150 50  0001 C CNN
+F 3 "" H 1650 1150 50  0001 C CNN
+	1    1650 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -305,8 +305,6 @@ F 3 "~" H 4400 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 2600 4400 2600
-Wire Wire Line
-	5300 2600 5350 2600
 Text Notes 3550 2000 0    50   ~ 0
 Vin = 5V\nVout = 12V\nIout = 84mA
 Text Notes 3550 2150 0    50   ~ 0
@@ -364,7 +362,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 5000 2600 50  0001 C CNN
 	1    5000 2600
 	1    0    0    -1  
 $EndComp
-Connection ~ 5350 2600
 Wire Wire Line
-	5350 2600 5650 2600
+	5300 2600 5650 2600
 $EndSCHEMATC
