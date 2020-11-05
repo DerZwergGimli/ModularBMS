@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name _Package_MSOP)(type KiCad)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/footprints.pretty/_Package_MSOP.pretty)(options "")(descr ""))
+  (lib (name LTC2946)(type Legacy)(uri /home/yannick/Documents/testOUT/LTC2946/LTC2946.mod)(options "")(descr ""))
+)
