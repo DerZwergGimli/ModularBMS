@@ -1,3 +1,8 @@
 (sym_lib_table
   (lib (name _Measurement_ICs)(type Legacy)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/symbols/_Measurement_ICs.lib)(options "")(descr ""))
+  (lib (name _Connector)(type Legacy)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/symbols/_Connector.lib)(options "")(descr ""))
+  (lib (name _DC-DC-Wandler)(type Legacy)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/symbols/_DC-DC-Wandler.lib)(options "")(descr ""))
+  (lib (name _Optocoupler)(type Legacy)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/symbols/_Optocoupler.lib)(options "")(descr ""))
+  (lib (name _Power)(type Legacy)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/symbols/_Power.lib)(options "")(descr ""))
+  (lib (name _Power_ICs)(type Legacy)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/symbols/_Power_ICs.lib)(options "")(descr ""))
 )

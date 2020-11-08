@@ -1,4 +1,5 @@
 /ebooks_pdfs/*
+/LTSpice/*
 *.ods
 *.odt
 .~lock.*

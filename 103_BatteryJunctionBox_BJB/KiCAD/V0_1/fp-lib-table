@@ -1,4 +1,7 @@
 (fp_lib_table
   (lib (name _Package_MSOP)(type KiCad)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/footprints.pretty/_Package_MSOP.pretty)(options "")(descr ""))
-  (lib (name LTC2946)(type Legacy)(uri /home/yannick/Documents/testOUT/LTC2946/LTC2946.mod)(options "")(descr ""))
+  (lib (name _Connectors)(type KiCad)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/footprints.pretty/_Connectors.pretty)(options "")(descr ""))
+  (lib (name _Package_SIP)(type KiCad)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/footprints.pretty/_Package_SIP.pretty)(options "")(descr ""))
+  (lib (name _Package_SMDSpecial)(type KiCad)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/footprints.pretty/_Package_SMDSpecial.pretty)(options "")(descr ""))
+  (lib (name _Package_SOP)(type KiCad)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/footprints.pretty/_Package_SOP.pretty)(options "")(descr ""))
 )
