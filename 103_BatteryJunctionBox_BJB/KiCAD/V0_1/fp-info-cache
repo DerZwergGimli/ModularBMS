@@ -1,4 +1,4 @@
-18975148770082574
+18983172893478056
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56209,13 +56209,6 @@ Yellow 5381 Series LED
 0
 2
 2
-LTC2946
-SOP50P490X110-16N
-16 Lead Plastic MSOP
-Integrated Circuit
-0
-16
-16
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -82942,6 +82935,13 @@ varistor SIOV
 0
 2
 2
+_Connectors
+WuertHA_7461057
+WuertHA_7461057-2
+Connector
+0
+6
+6
 _Package_MSOP
 MSOP_16_Lead_Plastic
 16 Lead Plastic MSOP
@@ -82949,3 +82949,38 @@ Integrated Circuit
 0
 16
 16
+_Package_SIP
+SIP4_SingleOutput
+RI
+Power Supply
+0
+4
+4
+_Package_SMDSpecial
+LT8630IFEPBF
+FE Package Variation: FE20(16) 20-Lead Plastic TSSOP (4.4mm) (Reference LTC DWG # 05-08-1924 Rev Ø) Expo
+Integrated Circuit
+0
+17
+17
+_Package_SOP
+SOP-4
+4 pin SOP
+Integrated Circuit
+0
+4
+4
+_Shunts
+R_Shunt_16x8-75_Bourns
+Power Metal Strip Resistors 0.005 to 0.2, https://www.vishay.com/docs/30101/wsr.pdf
+SMD Shunt Resistor
+0
+6
+2
+_Shunts
+R_Shunt_16x8-75_Bourns_4Pin
+Power Metal Strip Resistors 0.005 to 0.2, https://www.vishay.com/docs/30101/wsr.pdf
+SMD Shunt Resistor
+0
+6
+4

@@ -4,4 +4,5 @@
   (lib (name _Package_SIP)(type KiCad)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/footprints.pretty/_Package_SIP.pretty)(options "")(descr ""))
   (lib (name _Package_SMDSpecial)(type KiCad)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/footprints.pretty/_Package_SMDSpecial.pretty)(options "")(descr ""))
   (lib (name _Package_SOP)(type KiCad)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/footprints.pretty/_Package_SOP.pretty)(options "")(descr ""))
+  (lib (name _Shunts)(type KiCad)(uri ${KIPRJMOD}/KiCAD_Library_DZWG/footprints.pretty/_Shunts.pretty)(options "")(descr ""))
 )

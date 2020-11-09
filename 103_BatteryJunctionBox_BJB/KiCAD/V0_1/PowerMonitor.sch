@@ -18,8 +18,8 @@ L _Measurement_ICs:LTC2946 IC?
 U 1 1 5FA7E8CB
 P 5050 2600
 AR Path="/5FA7E8CB" Ref="IC?"  Part="1" 
-AR Path="/5FA7E0E6/5FA7E8CB" Ref="IC?"  Part="1" 
-F 0 "IC?" H 5700 2865 50  0000 C CNN
+AR Path="/5FA7E0E6/5FA7E8CB" Ref="IC201"  Part="1" 
+F 0 "IC201" H 5700 2865 50  0000 C CNN
 F 1 "LTC2946" H 5700 2774 50  0000 C CNN
 F 2 "_Package_MSOP:MSOP_16_Lead_Plastic" H 6200 2700 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/2946fa.pdf" H 6200 2600 50  0001 L CNN
@@ -41,10 +41,10 @@ Text HLabel 5000 2600 0    50   Input ~ 0
 Wire Wire Line
 	5000 2600 5050 2600
 $Comp
-L Device:C_Small C?
+L Device:C_Small C201
 U 1 1 5FA80312
 P 4150 2800
-F 0 "C?" H 4242 2846 50  0000 L CNN
+F 0 "C201" H 4242 2846 50  0000 L CNN
 F 1 "0.1u" H 4242 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4150 2800 50  0001 C CNN
 F 3 "~" H 4150 2800 50  0001 C CNN
@@ -83,12 +83,12 @@ Address0
 Wire Wire Line
 	6400 3100 6350 3100
 $Comp
-L Jumper:Jumper_3_Open JP?
+L Jumper:Jumper_3_Open JP201
 U 1 1 5FA86C3A
 P 7650 1150
-F 0 "JP?" H 7650 1374 50  0000 C CNN
+F 0 "JP201" H 7650 1374 50  0000 C CNN
 F 1 "Jumper_3_Open" H 7650 1283 50  0000 C CNN
-F 2 "" H 7650 1150 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7650 1150 50  0001 C CNN
 F 3 "~" H 7650 1150 50  0001 C CNN
 	1    7650 1150
 	1    0    0    -1  
@@ -111,12 +111,12 @@ Wire Wire Line
 Wire Wire Line
 	7650 1300 7650 1650
 $Comp
-L Jumper:Jumper_3_Open JP?
+L Jumper:Jumper_3_Open JP202
 U 1 1 5FA8D820
 P 8950 1150
-F 0 "JP?" H 8950 1374 50  0000 C CNN
+F 0 "JP202" H 8950 1374 50  0000 C CNN
 F 1 "Jumper_3_Open" H 8950 1283 50  0000 C CNN
-F 2 "" H 8950 1150 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8950 1150 50  0001 C CNN
 F 3 "~" H 8950 1150 50  0001 C CNN
 	1    8950 1150
 	1    0    0    -1  
@@ -146,23 +146,23 @@ Text HLabel 5000 3000 0    50   Input ~ 0
 Wire Wire Line
 	5000 3000 5050 3000
 $Comp
-L Device:R_Small R?
+L Device:R_Small R202
 U 1 1 5FA922FC
 P 7350 3250
-F 0 "R?" H 7409 3296 50  0000 L CNN
+F 0 "R202" H 7409 3296 50  0000 L CNN
 F 1 "20k" H 7409 3205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 7350 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7350 3250 50  0001 C CNN
 F 3 "~" H 7350 3250 50  0001 C CNN
 	1    7350 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R201
 U 1 1 5FA9270A
 P 7350 2950
-F 0 "R?" H 7409 2996 50  0000 L CNN
+F 0 "R201" H 7409 2996 50  0000 L CNN
 F 1 "1Mega" H 7409 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" H 7350 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7350 2950 50  0001 C CNN
 F 3 "~" H 7350 2950 50  0001 C CNN
 	1    7350 2950
 	1    0    0    -1  
