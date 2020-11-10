@@ -1,3 +1,6 @@
 [submodule "103_BatteryJunctionBox_BJB/KiCAD/KiCAD_Library_DZWG"]
 	path = 103_BatteryJunctionBox_BJB/KiCAD/KiCAD_Library_DZWG
 	url = https://github.com/DerZwergGimli/KiCAD_Library_DZWG.git
+[submodule "500_Code/001_BlinkTest/lib/Arduino-Log"]
+	path = 500_Code/001_BlinkTest/lib/Arduino-Log
+	url = https://github.com/thijse/Arduino-Log.git
