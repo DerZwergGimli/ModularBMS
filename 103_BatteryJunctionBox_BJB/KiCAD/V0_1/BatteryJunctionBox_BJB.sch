@@ -842,16 +842,4 @@ Wire Wire Line
 	2850 1550 2850 1500
 Wire Wire Line
 	2650 1550 2650 1500
-Wire Wire Line
-	2650 1500 2550 1500
-Wire Wire Line
-	2550 1500 2550 1350
-Connection ~ 2650 1500
-Connection ~ 2550 1350
-Wire Wire Line
-	2850 1500 2950 1500
-Wire Wire Line
-	2950 1500 2950 1350
-Connection ~ 2850 1500
-Connection ~ 2950 1350
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-18983172893478056
+18984777937420056
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82975,12 +82975,19 @@ R_Shunt_16x8-75_Bourns
 Power Metal Strip Resistors 0.005 to 0.2, https://www.vishay.com/docs/30101/wsr.pdf
 SMD Shunt Resistor
 0
-6
+2
 2
 _Shunts
 R_Shunt_16x8-75_Bourns_4Pin
 Power Metal Strip Resistors 0.005 to 0.2, https://www.vishay.com/docs/30101/wsr.pdf
 SMD Shunt Resistor
 0
-6
+4
+4
+_Shunts
+R_Shunt_16x8-75_Bourns_4Pin_2
+Power Metal Strip Resistors 0.005 to 0.2, https://www.vishay.com/docs/30101/wsr.pdf
+SMD Shunt Resistor
+0
+4
 4
